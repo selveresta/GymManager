@@ -17,12 +17,9 @@ namespace GymManager
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            TestForm1 tf1 = new TestForm1(this);
-            panelView.Controls.Clear();
-            panelView.Controls.Add(tf1);
-            tf1.Show();
+
         }
     }
 }
